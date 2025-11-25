@@ -7,13 +7,22 @@ A design system for building faithful recreations of old UIs.
 
 <img alt="a screenshot of a window with the title 'My First VB4 Program' and two buttons OK and Cancel, styled like a Windows 98 dialog" src="https://github.com/jdan/98.css/blob/main/docs/window.png?raw=true" height="133"> <img alt="a magnified view showing pixel-perfect borders on a scrollbar and button element" src="https://github.com/jdan/98.css/blob/main/docs/zoom.png?raw=true?raw=true" height="133">
 
-98.css is a CSS file that takes semantic HTML and makes it look pretty. It does not ship with any JavaScript, so it is compatible with your frontend framework of choice.
+CDE.css is a fork of [98.css](https://github.com/jdan/98.css), a CSS file that takes semantic HTML and makes it look pretty. It does not ship with any JavaScript, so it is compatible with your frontend framework of choice.
 
-Be sure to check out [XP.css](https://botoxparty.github.io/XP.css/) and [7.css](https://khang-nd.github.io/7.css/) as well.
+CDE.css is made to make pages with the look/feel of [Common Desktop Environment](https://en.wikipedia.org/wiki/Common_Desktop_Environment).
+
+See also:
+- [98.css](https://github.com/jdan/98.css)
+- [XP.css](https://botoxparty.github.io/XP.css/)
+- [7.css](https://khang-nd.github.io/7.css/)
 
 ### Installation / Usage
 
-The easiest way to use 98.css is to import it from [unpkg](https://unpkg.com/).
+~~The easiest way to use CDE.css is to import it from [unpkg](https://unpkg.com/).~~
+> [!NOTE]
+> This isn't set up yet. Perhaps at a later date.
+
+## The rest of this is verbatim from 98.css
 
 ```html
 <!DOCTYPE html>
