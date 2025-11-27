@@ -26,15 +26,15 @@
 | \#3d407c | Front Panel background, workspace switcher Two and Dtfile background.                |
 # Derived colors
 ### Border highlights/shadows
-- +25% HSL lightness -> window border highlights
-- -25% HSL lightness -> window border shadows
+- multiply by 2 -> window border highlights
+- divide by 2 -> window border shadows
 
 element emboss/deboss shadows/highlights are same as inactive window border
 ## Element colors
 ### window/element backgrounds
 - color 2 -> basic background
 - color 4 -> text entry background
-- color 2 -7.5% HSL Lightness -> interior shaded areas (used for some elements and some backgrounds)
+- color 2 times 0.85 then floored -> interior shaded areas (used for some elements and some backgrounds)
 # Locations where border highlights/shadows are used
 ### Inactive window border
 - border for inactive windows (duh)
